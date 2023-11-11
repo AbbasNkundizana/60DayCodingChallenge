@@ -18,13 +18,13 @@ else:
         attempts -= 1 
 
         if attempts == 1:
-           print('maximum attempts reached. please re-start again" and exit the program')
-           break
+            print('maximum attempts reached. please re-start again" and exit the program')
+            break
         
         if password1 == password2:
             print('Password created successfully')
             break
-
+            
         
 
 
