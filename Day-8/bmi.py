@@ -5,21 +5,21 @@ BMI = weight/height**2
 print(f'Your BMI is {BMI}')
 
 if BMI < 16.0:
-    print('Underweight(Severe thinness)')
+    print('You are Underweight(Severe thinness)')
 elif 16.0 <= BMI < 16.9:
-    print('Underweight(Moderate thinness)')
+    print('You are Underweight(Moderate thinness)')
 elif 17.0 <= BMI < 18.4:
-    print('Underweight(Mild thinness)')
+    print('You are Underweight(Mild thinness)')
 elif 18.5 <= BMI < 24.9:
-    print('Normal range')
+    print('You are in Normal range')
 elif 25.0 <= BMI < 29.9:
-    print('Overweight(Pre-obese)')
+    print('You are Overweight(Pre-obese)')
 elif 30.0 <= BMI < 34.9:
-    print('Obese(Class I)')
+    print('You are Obese(Class I)')
 elif 35.0 <= BMI < 39.9:
-    print('Obese(Class II)')
+    print('You are Obese(Class II)')
 else:
-    print('Obese(Class III)')
+    print('You are Obese(Class III)')
 
 
 
