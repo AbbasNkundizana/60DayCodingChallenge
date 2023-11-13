@@ -11,7 +11,7 @@ elif number == 4:
     print('Four')
 else:
     print('Wrong Number')
-    print('Exit')
+print('Exit')
 
 
 
